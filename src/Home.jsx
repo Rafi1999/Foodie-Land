@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import FoodCategories from './components/FoodCategories'
 import SimpleRecipe from './components/SimpleRecipe'
 import ChefView from './components/ChefView'
+import InstaPage from './components/InstaPage'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <FoodCategories />
         <SimpleRecipe />
         <ChefView />
+        <InstaPage />
     </div>
   )
 }
