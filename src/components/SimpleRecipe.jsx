@@ -8,7 +8,7 @@ import ads from "/assets/Ads.png";
 import pancakefruity from "/assets/pancakefruity.png";
 import ricechicken from "/assets/ricechicken.png";
 import pasta from "/assets/pasta.png";
-import { RecipeCard1 } from '../utility/RecipeCard1';
+import { RecipeCard1 } from '../shared/RecipeCard1';
 function SimpleRecipe() {
     const simpleRecipes = [
         {

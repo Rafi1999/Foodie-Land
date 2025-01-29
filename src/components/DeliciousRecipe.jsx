@@ -7,7 +7,7 @@ import soup from "/assets/soup.png";
 import chickensalad from "/assets/chickensalad.png";
 import wraps from "/assets/wraps.png";
 import sandwich from "/assets/sandwich.png";
-import { RecipeCard2 } from '../utility/RecipeCard2';
+import { RecipeCard2 } from '../shared/RecipeCard2';
 
 function DeliciousRecipe() {
     const deliciousRecipes = [
