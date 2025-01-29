@@ -8,7 +8,7 @@ import ads from "/assets/Ads.png";
 import pancakefruity from "/assets/pancakefruity.png";
 import ricechicken from "/assets/ricechicken.png";
 import pasta from "/assets/pasta.png";
-import { RecipeCard } from './RecipeCard';
+import { RecipeCard1 } from '../utility/RecipeCard1';
 function SimpleRecipe() {
     const simpleRecipes = [
         {
@@ -73,12 +73,12 @@ function SimpleRecipe() {
         },
     ]
     return (
-        <div className='mt-20'>
+        <div className='mt-[160px]'>
             <h1 className='text-center text-[45px] font-semibold'>Simple and tasty recipes</h1>
             <p className='text-[#00000099] text-center text-[16px]'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br /> labore et dolore magna aliqut enim ad minim </p>
             <div className='mt-20 grid grid-cols-3 mx-20'>
                 {simpleRecipes.map(recipe => (
-                     <RecipeCard key={recipe.id} recipe={recipe} />
+                     <RecipeCard1 key={recipe.id} recipe={recipe} />
                 ))}
             </div>
         </div>

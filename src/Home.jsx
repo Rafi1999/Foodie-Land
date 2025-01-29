@@ -5,6 +5,7 @@ import FoodCategories from './components/FoodCategories'
 import SimpleRecipe from './components/SimpleRecipe'
 import ChefView from './components/ChefView'
 import InstaPage from './components/InstaPage'
+import DeliciousRecipe from './components/DeliciousRecipe'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <SimpleRecipe />
         <ChefView />
         <InstaPage />
+        <DeliciousRecipe />
     </div>
   )
 }

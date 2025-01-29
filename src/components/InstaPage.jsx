@@ -25,7 +25,7 @@ function InstaPage() {
     ]
     
     return (
-        <div className='mt-20' style={{
+        <div className='mt-[160px] pb-8' style={{
             background: 'linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%)'
           }}>
             <h1 className='text-center text-[45px] font-semibold'>Check out @foodieland on Instagram</h1>

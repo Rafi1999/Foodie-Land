@@ -1,7 +1,7 @@
 import React from 'react';
 import forkKinfe from '/assets/ForkKnife.png';
 import timer from '/assets/Timer.png';
-export const RecipeCard = ({ recipe }) => {
+export const RecipeCard1 = ({ recipe }) => {
   const { title, type, loved, image } = recipe;
   
   if (recipe.id === 6) {
