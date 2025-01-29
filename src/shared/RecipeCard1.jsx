@@ -6,7 +6,7 @@ export const RecipeCard1 = ({ recipe }) => {
   
   if (recipe.id === 6) {
     return (
-      <div className="w-[400px] mb-8  h-[434px]">
+      <div className="w-[360px] md:w-[400px] mb-8  h-[410px] md:h-[434px]">
         <img 
           src={image} 
           alt="Advertisement"
@@ -17,7 +17,7 @@ export const RecipeCard1 = ({ recipe }) => {
   }
   
   return (
-    <div className="relative w-[400px] h-[434px] mb-8">
+    <div className="relative w-[360px] md:w-[400px] h-[410px] md:h-[434px] mb-8">
       <div className="overflow-hidden rounded-[30px_0_0_0] bg-white shadow-lg">
         <div 
           className="absolute inset-0 z-0 rounded-3xl"

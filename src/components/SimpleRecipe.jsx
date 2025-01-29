@@ -73,10 +73,10 @@ function SimpleRecipe() {
         },
     ]
     return (
-        <div className='mt-[160px]'>
-            <h1 className='text-center text-[45px] font-semibold'>Simple and tasty recipes</h1>
-            <p className='text-[#00000099] text-center text-[16px]'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br /> labore et dolore magna aliqut enim ad minim </p>
-            <div className='mt-20 grid grid-cols-3 mx-20'>
+        <div className='mt-[80px] md:mt-[160px]'>
+            <h1 className='text-center text-[35px] lg:text-[35px] xl:text-[45px] font-semibold'>Simple and tasty recipes</h1>
+            <p className='text-[#00000099] sm:mx-10 md:mx-5 lg:mx-0 text-center text-[13px] md:text-[16px]'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <span className="hidden md:inline"> <br /> </span> labore et dolore magna aliqut enim ad minim </p>
+            <div className='mt-10 x;:mt-20 grid justify-center md:grid-cols-2 xl:grid-cols-3 mx-20'>
                 {simpleRecipes.map(recipe => (
                      <RecipeCard1 key={recipe.id} recipe={recipe} />
                 ))}
