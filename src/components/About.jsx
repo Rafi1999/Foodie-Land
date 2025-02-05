@@ -52,7 +52,7 @@ function About() {
             <img 
               src={chefheader} 
               alt="Cooking passion" 
-              className="rounded-full shadow-lg w-full h-96"
+              className="rounded-full shadow-lg w-96 h-96 xl:w-[400px] xl:h-[400px] object-cover mx-auto"
             />
           </div>
         </div>
